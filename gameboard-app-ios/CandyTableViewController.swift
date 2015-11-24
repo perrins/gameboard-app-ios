@@ -64,7 +64,7 @@ class CandyTableViewController : UITableViewController, UISearchBarDelegate, UIS
             })
     }
 
-    func searchDisplayController(controller: UISearchDisplayController!, shouldReloadTableForSearchString searchString: String?) -> Bool {
+    func searchDisplayController(controller: UISearchDisplayController, shouldReloadTableForSearchString searchString: String?) -> Bool {
         let scopes = self.searchDisplayController!.searchBar.scopeButtonTitles! as [String]
         let selectedScope = scopes[self.searchDisplayController!.searchBar.selectedScopeButtonIndex] as String
         self.filterContentForSearchText(searchString!, scope: selectedScope)
@@ -83,17 +83,25 @@ class CandyTableViewController : UITableViewController, UISearchBarDelegate, UIS
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        
         if segue.identifier == "searchDetail" {
+            
             let candyDetailViewController = segue.destinationViewController as UIViewController
+            
             if sender as! UITableView == self.searchDisplayController!.searchResultsTableView {
+                
                 let indexPath = self.searchDisplayController!.searchResultsTableView.indexPathForSelectedRow!
                 let destinationTitle = self.filteredCandies[indexPath.row].name
                 candyDetailViewController.title = destinationTitle
+                
+                
+                
             } else {
                 let indexPath = self.tableView.indexPathForSelectedRow!
                 let destinationTitle = self.candies[indexPath.row].name
                 candyDetailViewController.title = destinationTitle
             }
+            
         }
     }
 }
