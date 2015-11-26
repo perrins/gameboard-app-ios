@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE12C5CE1C06064300EB987B /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE12C5CD1C06064300EB987B /* Search.storyboard */; };
 		DE5DE6CB1BFDE7740032869E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5DE6CA1BFDE7740032869E /* AppDelegate.swift */; };
-		DE5DE6D41BFDE7740032869E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5DE6D31BFDE7740032869E /* Assets.xcassets */; };
 		DE5DE6D71BFDE7740032869E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5DE6D51BFDE7740032869E /* LaunchScreen.storyboard */; };
 		DE5DE6E21BFDE7740032869E /* gameboard_app_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5DE6E11BFDE7740032869E /* gameboard_app_iosTests.swift */; };
 		DE5DE6ED1BFDE7740032869E /* gameboard_app_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5DE6EC1BFDE7740032869E /* gameboard_app_iosUITests.swift */; };
@@ -32,6 +32,10 @@
 		DE5DE7271BFDEEB00032869E /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5DE7251BFDEEB00032869E /* Genre.swift */; };
 		DE5DE72C1BFDF5300032869E /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5DE72A1BFDF5300032869E /* Candy.swift */; };
 		DE5DE72D1BFDF5300032869E /* CandyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5DE72B1BFDF5300032869E /* CandyTableViewController.swift */; };
+		DE9D2A1F1C0729B300CD852E /* Members.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9D2A1E1C0729B300CD852E /* Members.storyboard */; };
+		DEE81D5B1C0607C200B16024 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE81D5A1C0607C200B16024 /* MainTabBarController.swift */; };
+		DEFC3B191C04A98900B05EC6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC3B181C04A98900B05EC6 /* SettingsViewController.swift */; };
+		DEFC3B1B1C04B09700B05EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFC3B1A1C04B09700B05EC6 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,9 +70,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE12C5CD1C06064300EB987B /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		DE5DE6C71BFDE7740032869E /* gameboard-app-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gameboard-app-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5DE6CA1BFDE7740032869E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE5DE6D31BFDE7740032869E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE5DE6D61BFDE7740032869E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE5DE6D81BFDE7740032869E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE5DE6DD1BFDE7740032869E /* gameboard-app-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gameboard-app-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +100,10 @@
 		DE5DE7251BFDEEB00032869E /* Genre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		DE5DE72A1BFDF5300032869E /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
 		DE5DE72B1BFDF5300032869E /* CandyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyTableViewController.swift; sourceTree = "<group>"; };
+		DE9D2A1E1C0729B300CD852E /* Members.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Members.storyboard; sourceTree = "<group>"; };
+		DEE81D5A1C0607C200B16024 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		DEFC3B181C04A98900B05EC6 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DEFC3B1A1C04B09700B05EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +156,7 @@
 		DE5DE6C91BFDE7740032869E /* gameboard-app-ios */ = {
 			isa = PBXGroup;
 			children = (
+				DE9D2A1D1C07296100CD852E /* Members */,
 				DEAA2B191C03138E003A07FF /* Controllers */,
 				DE5DE7301BFDF5780032869E /* Utils */,
 				DE5DE72F1BFDF53A0032869E /* Boards */,
@@ -156,9 +165,9 @@
 				DE5DE7281BFDEEB40032869E /* APIs */,
 				DE5DE6FA1BFDE7EC0032869E /* Main.storyboard */,
 				DE5DE6CA1BFDE7740032869E /* AppDelegate.swift */,
-				DE5DE6D31BFDE7740032869E /* Assets.xcassets */,
 				DE5DE6D51BFDE7740032869E /* LaunchScreen.storyboard */,
 				DE5DE6D81BFDE7740032869E /* Info.plist */,
+				DEFC3B1A1C04B09700B05EC6 /* Assets.xcassets */,
 			);
 			path = "gameboard-app-ios";
 			sourceTree = "<group>";
@@ -207,6 +216,7 @@
 		DE5DE72E1BFDF5340032869E /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				DE12C5CD1C06064300EB987B /* Search.storyboard */,
 				DE5DE72A1BFDF5300032869E /* Candy.swift */,
 				DE5DE72B1BFDF5300032869E /* CandyTableViewController.swift */,
 			);
@@ -231,11 +241,21 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
+		DE9D2A1D1C07296100CD852E /* Members */ = {
+			isa = PBXGroup;
+			children = (
+				DE9D2A1E1C0729B300CD852E /* Members.storyboard */,
+			);
+			name = Members;
+			sourceTree = "<group>";
+		};
 		DEAA2B191C03138E003A07FF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DEE81D5A1C0607C200B16024 /* MainTabBarController.swift */,
 				DE5DE7011BFDE8120032869E /* LoginViewController.swift */,
 				DE5DE7051BFDE8120032869E /* ViewController.swift */,
+				DEFC3B181C04A98900B05EC6 /* SettingsViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -309,6 +329,7 @@
 				TargetAttributes = {
 					DE5DE6C61BFDE7740032869E = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 2EGXRYELNU;
 					};
 					DE5DE6DC1BFDE7740032869E = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -346,8 +367,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE5DE6FB1BFDE7EC0032869E /* Main.storyboard in Resources */,
+				DEFC3B1B1C04B09700B05EC6 /* Assets.xcassets in Resources */,
+				DE9D2A1F1C0729B300CD852E /* Members.storyboard in Resources */,
 				DE5DE6D71BFDE7740032869E /* LaunchScreen.storyboard in Resources */,
-				DE5DE6D41BFDE7740032869E /* Assets.xcassets in Resources */,
+				DE12C5CE1C06064300EB987B /* Search.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,9 +397,11 @@
 			files = (
 				DE5DE71D1BFDEDE60032869E /* NewItem.swift in Sources */,
 				DE5DE70C1BFDE8120032869E /* MedalView.swift in Sources */,
+				DEE81D5B1C0607C200B16024 /* MainTabBarController.swift in Sources */,
 				DE5DE70B1BFDE8120032869E /* LoginViewController.swift in Sources */,
 				DE5DE70A1BFDE8120032869E /* GenreCollectionViewController.swift in Sources */,
 				DE5DE72C1BFDF5300032869E /* Candy.swift in Sources */,
+				DEFC3B191C04A98900B05EC6 /* SettingsViewController.swift in Sources */,
 				DE5DE72D1BFDF5300032869E /* CandyTableViewController.swift in Sources */,
 				DE5DE7061BFDE8120032869E /* APIHelper.swift in Sources */,
 				DE5DE70F1BFDE8120032869E /* ViewController.swift in Sources */,
@@ -521,13 +546,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matthew Perrins (HQ89NV2SGV)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "gameboard-app-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gameboard.gameboard-app-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = co.gameboard.mobile.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -536,13 +563,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matthew Perrins (HQ89NV2SGV)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "gameboard-app-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gameboard.gameboard-app-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = co.gameboard.mobile.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

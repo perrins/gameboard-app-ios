@@ -99,7 +99,7 @@ class ViewController: UITableViewController {
     }
     
     override func prefersStatusBarHidden() -> Bool {
-        return true
+        return false
     }
 
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
