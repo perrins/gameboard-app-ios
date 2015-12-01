@@ -42,6 +42,19 @@ class MainTabBarController: UITabBarController {
         
         viewControllers.insert(members, atIndex: 1)
         
+        // ADDING YOURVIDEOS
+        storyboard = UIStoryboard(name:"YourVideos", bundle: nil)
+        
+        let yourvideos : UINavigationController = storyboard.instantiateViewControllerWithIdentifier("YourVideosNav") as! UINavigationController
+        
+        // Create new Tab Bar Item for Search based on Search Story Board
+        let yourVideosIcon = UITabBarItem(title: "Your Videos", image:UIImage(named: "videocamera.png"), selectedImage:UIImage(named: "videocamera.png"))
+        
+        // Add the Item to the Navigation Controller
+        yourvideos.tabBarItem = yourVideosIcon
+        
+        viewControllers.insert(yourvideos, atIndex: 1)
+        
         self.viewControllers = viewControllers
                
     }

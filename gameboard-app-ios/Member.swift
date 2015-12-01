@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Candy {
-    let category : String
-    let name : String
+struct Member {
+  let category : String
+  let name : String
 }
