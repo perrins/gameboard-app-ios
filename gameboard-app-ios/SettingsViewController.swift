@@ -39,7 +39,7 @@ class SettingsViewController: UITableViewController {
     override func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         let headerView = view as! UITableViewHeaderFooterView
         headerView.textLabel!.textColor = UIColor(red: 151.0/255, green: 193.0/255, blue: 100.0/255, alpha: 1)
-        let font = UIFont(name: "Montserrat", size: 18.0)
+        //let font = UIFont(name: "Montserrat", size: 18.0)
         //headerView.textLabel!.font = font!
     }
     
@@ -51,7 +51,7 @@ class SettingsViewController: UITableViewController {
 
             // Open MEMBERS Storyboard
             let storyboard = UIStoryboard(name: "Members", bundle: nil)
-            let vc = storyboard.instantiateViewControllerWithIdentifier("Members") as! UIViewController
+            let vc = storyboard.instantiateViewControllerWithIdentifier("Members") 
             self.navigationController!.pushViewController(vc, animated: true)
             
             break;

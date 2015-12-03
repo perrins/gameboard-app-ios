@@ -42,6 +42,8 @@ class MainTabBarController: UITabBarController {
         
         viewControllers.insert(members, atIndex: 1)
         
+        
+        
         // ADDING YOURVIDEOS
         storyboard = UIStoryboard(name:"YourVideos", bundle: nil)
         
@@ -54,7 +56,8 @@ class MainTabBarController: UITabBarController {
         yourvideos.tabBarItem = yourVideosIcon
         
         viewControllers.insert(yourvideos, atIndex: 1)
-        
+
+        // Add Tabs to the Main Tab Bar
         self.viewControllers = viewControllers
                
     }
