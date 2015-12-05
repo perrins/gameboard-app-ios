@@ -185,7 +185,6 @@
 				DE5DE72E1BFDF5340032869E /* Search */,
 				DE5DE7291BFDEEBC0032869E /* Models */,
 				DE5DE7281BFDEEB40032869E /* APIs */,
-				DE5DE6FA1BFDE7EC0032869E /* Main.storyboard */,
 				DE5DE6CA1BFDE7740032869E /* AppDelegate.swift */,
 				DE5DE6D51BFDE7740032869E /* LaunchScreen.storyboard */,
 				DE5DE6D81BFDE7740032869E /* Info.plist */,
@@ -252,6 +251,7 @@
 				DE5DE7041BFDE8120032869E /* NewsItemCell.swift */,
 				DE5DE6FF1BFDE8120032869E /* GenreCell.swift */,
 				DE5DE7001BFDE8120032869E /* GenreCollectionViewController.swift */,
+				DE5DE6FA1BFDE7EC0032869E /* Main.storyboard */,
 			);
 			name = Boards;
 			sourceTree = "<group>";
