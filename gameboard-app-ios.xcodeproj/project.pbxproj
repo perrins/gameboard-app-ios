@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DE12C5CE1C06064300EB987B /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE12C5CD1C06064300EB987B /* Search.storyboard */; };
+		DE5B223E1C171DF0007C16AD /* VideoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5B223D1C171DF0007C16AD /* VideoDetailController.swift */; };
+		DE5B22521C172496007C16AD /* YouTubePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B22511C172496007C16AD /* YouTubePlayer.framework */; };
+		DE5B22531C172496007C16AD /* YouTubePlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B22511C172496007C16AD /* YouTubePlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DE5DE6CB1BFDE7740032869E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5DE6CA1BFDE7740032869E /* AppDelegate.swift */; };
 		DE5DE6D71BFDE7740032869E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5DE6D51BFDE7740032869E /* LaunchScreen.storyboard */; };
 		DE5DE6E21BFDE7740032869E /* gameboard_app_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5DE6E11BFDE7740032869E /* gameboard_app_iosTests.swift */; };
@@ -73,6 +76,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				DE5DE7181BFDED660032869E /* Alamofire.framework in Embed Frameworks */,
+				DE5B22531C172496007C16AD /* YouTubePlayer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +85,8 @@
 
 /* Begin PBXFileReference section */
 		DE12C5CD1C06064300EB987B /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		DE5B223D1C171DF0007C16AD /* VideoDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetailController.swift; sourceTree = "<group>"; };
+		DE5B22511C172496007C16AD /* YouTubePlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YouTubePlayer.framework; path = Carthage/Build/iOS/YouTubePlayer.framework; sourceTree = "<group>"; };
 		DE5DE6C71BFDE7740032869E /* gameboard-app-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gameboard-app-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5DE6CA1BFDE7740032869E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE5DE6D61BFDE7740032869E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -132,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE5DE7171BFDED660032869E /* Alamofire.framework in Frameworks */,
+				DE5B22521C172496007C16AD /* YouTubePlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +162,7 @@
 		DE5DE6BE1BFDE7740032869E = {
 			isa = PBXGroup;
 			children = (
+				DE5B22511C172496007C16AD /* YouTubePlayer.framework */,
 				DE5DE7161BFDED660032869E /* Alamofire.framework */,
 				DE5DE6C91BFDE7740032869E /* gameboard-app-ios */,
 				DE5DE6E01BFDE7740032869E /* gameboard-app-iosTests */,
@@ -249,6 +257,7 @@
 			children = (
 				DE5DE7051BFDE8120032869E /* ViewController.swift */,
 				DE5DE7041BFDE8120032869E /* NewsItemCell.swift */,
+				DE5B223D1C171DF0007C16AD /* VideoDetailController.swift */,
 				DE5DE6FF1BFDE8120032869E /* GenreCell.swift */,
 				DE5DE7001BFDE8120032869E /* GenreCollectionViewController.swift */,
 				DE5DE6FA1BFDE7EC0032869E /* Main.storyboard */,
@@ -450,6 +459,7 @@
 				DE5DE70B1BFDE8120032869E /* LoginViewController.swift in Sources */,
 				DE5DE70A1BFDE8120032869E /* GenreCollectionViewController.swift in Sources */,
 				DEFC3B191C04A98900B05EC6 /* SettingsViewController.swift in Sources */,
+				DE5B223E1C171DF0007C16AD /* VideoDetailController.swift in Sources */,
 				DE78DFFF1C0F1ADC0004BB94 /* CategoryRow.swift in Sources */,
 				DE78E0031C0F35B50004BB94 /* YourVideoViewController.swift in Sources */,
 				DE5DE72D1BFDF5300032869E /* CandyTableViewController.swift in Sources */,
