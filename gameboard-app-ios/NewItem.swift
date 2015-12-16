@@ -51,7 +51,8 @@ struct NewsItem {
         }
         }
     }
-    
+
+    let rank : Int
     let category: NewsCategory
     let summary: String
 }

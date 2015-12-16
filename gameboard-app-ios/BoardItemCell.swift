@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NewsItemCell: UITableViewCell {
+class BoardItemCell: UITableViewCell {
     
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var summaryLabel: UILabel!
@@ -16,19 +16,21 @@ class NewsItemCell: UITableViewCell {
     
     @IBOutlet weak var rankLabel: UILabel!
     
-    var newsItem: NewsItem? {
+    var boardItem: BoardItem? {
         didSet {
-            if let item = newsItem {
+            if let item = boardItem {
                 categoryLabel.text = item.category.toString()
                 categoryLabel.textColor = item.category.toColor()
                 summaryLabel.text = item.summary
+                rankLabel.text = String(item.rank)
             }
             else {
                 categoryLabel.text = nil
                 summaryLabel.text = nil
+                rankLabel.text = nil
             }
         }
     }
     
-   
+    
 }
