@@ -43,12 +43,12 @@
 		DE78E0011C0F1ADC0004BB94 /* YourVideos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE78DFFD1C0F1ADC0004BB94 /* YourVideos.storyboard */; };
 		DE78E0031C0F35B50004BB94 /* YourVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78E0021C0F35B50004BB94 /* YourVideoViewController.swift */; };
 		DE9D2A211C0DDB9700CD852E /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D2A201C0DDB9700CD852E /* Candy.swift */; };
-		DE9D2A2B1C0E077900CD852E /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D2A251C0E077900CD852E /* CardTableViewCell.swift */; };
-		DE9D2A2C1C0E077900CD852E /* MemberSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D2A261C0E077900CD852E /* MemberSearchViewController.swift */; };
-		DE9D2A2D1C0E077900CD852E /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D2A271C0E077900CD852E /* Member.swift */; };
-		DE9D2A2E1C0E077900CD852E /* TipInCellAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D2A281C0E077900CD852E /* TipInCellAnimator.swift */; };
-		DE9D2A2F1C0E077900CD852E /* Members.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9D2A2A1C0E077900CD852E /* Members.storyboard */; };
 		DE9D2A311C0E078400CD852E /* Members.json in Resources */ = {isa = PBXBuildFile; fileRef = DE9D2A301C0E078400CD852E /* Members.json */; };
+		DEC5D5171C4C1174005AF050 /* Members.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC5D5161C4C1174005AF050 /* Members.storyboard */; };
+		DEC5D5191C4C11E4005AF050 /* TipInCellAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5D5181C4C11E4005AF050 /* TipInCellAnimator.swift */; };
+		DEC5D51C1C4C11FA005AF050 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5D51A1C4C11FA005AF050 /* Member.swift */; };
+		DEC5D51D1C4C11FA005AF050 /* MemberSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5D51B1C4C11FA005AF050 /* MemberSearchViewController.swift */; };
+		DEC5D51F1C4C1212005AF050 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5D51E1C4C1212005AF050 /* CardTableViewCell.swift */; };
 		DEE81D5B1C0607C200B16024 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE81D5A1C0607C200B16024 /* MainTabBarController.swift */; };
 		DEFC3B191C04A98900B05EC6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC3B181C04A98900B05EC6 /* SettingsViewController.swift */; };
 		DEFC3B1B1C04B09700B05EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFC3B1A1C04B09700B05EC6 /* Assets.xcassets */; };
@@ -127,12 +127,12 @@
 		DE78DFFD1C0F1ADC0004BB94 /* YourVideos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YourVideos.storyboard; sourceTree = "<group>"; };
 		DE78E0021C0F35B50004BB94 /* YourVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourVideoViewController.swift; sourceTree = "<group>"; };
 		DE9D2A201C0DDB9700CD852E /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
-		DE9D2A251C0E077900CD852E /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardTableViewCell.swift; path = "../../../Downloads/CardTilt-swift-final/CardTilt/CardTableViewCell.swift"; sourceTree = "<group>"; };
-		DE9D2A261C0E077900CD852E /* MemberSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemberSearchViewController.swift; path = "../../../Downloads/CardTilt-swift-final/CardTilt/MemberSearchViewController.swift"; sourceTree = "<group>"; };
-		DE9D2A271C0E077900CD852E /* Member.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Member.swift; path = "../../../Downloads/CardTilt-swift-final/CardTilt/Member.swift"; sourceTree = "<group>"; };
-		DE9D2A281C0E077900CD852E /* TipInCellAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TipInCellAnimator.swift; path = "../../../Downloads/CardTilt-swift-final/CardTilt/TipInCellAnimator.swift"; sourceTree = "<group>"; };
-		DE9D2A291C0E077900CD852E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Members.storyboard; sourceTree = "<group>"; };
 		DE9D2A301C0E078400CD852E /* Members.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Members.json; sourceTree = "<group>"; };
+		DEC5D5161C4C1174005AF050 /* Members.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Members.storyboard; sourceTree = "<group>"; };
+		DEC5D5181C4C11E4005AF050 /* TipInCellAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipInCellAnimator.swift; sourceTree = "<group>"; };
+		DEC5D51A1C4C11FA005AF050 /* Member.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		DEC5D51B1C4C11FA005AF050 /* MemberSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberSearchViewController.swift; sourceTree = "<group>"; };
+		DEC5D51E1C4C1212005AF050 /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
 		DEE81D5A1C0607C200B16024 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		DEFC3B181C04A98900B05EC6 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		DEFC3B1A1C04B09700B05EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -304,11 +304,11 @@
 		DE9D2A241C0DE08A00CD852E /* Members */ = {
 			isa = PBXGroup;
 			children = (
-				DE9D2A251C0E077900CD852E /* CardTableViewCell.swift */,
-				DE9D2A261C0E077900CD852E /* MemberSearchViewController.swift */,
-				DE9D2A271C0E077900CD852E /* Member.swift */,
-				DE9D2A281C0E077900CD852E /* TipInCellAnimator.swift */,
-				DE9D2A2A1C0E077900CD852E /* Members.storyboard */,
+				DEC5D5181C4C11E4005AF050 /* TipInCellAnimator.swift */,
+				DEC5D51E1C4C1212005AF050 /* CardTableViewCell.swift */,
+				DEC5D51A1C4C11FA005AF050 /* Member.swift */,
+				DEC5D51B1C4C11FA005AF050 /* MemberSearchViewController.swift */,
+				DEC5D5161C4C1174005AF050 /* Members.storyboard */,
 			);
 			name = Members;
 			sourceTree = "<group>";
@@ -431,8 +431,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE5DE6FB1BFDE7EC0032869E /* Main.storyboard in Resources */,
-				DE9D2A2F1C0E077900CD852E /* Members.storyboard in Resources */,
 				DEFC3B1B1C04B09700B05EC6 /* Assets.xcassets in Resources */,
+				DEC5D5171C4C1174005AF050 /* Members.storyboard in Resources */,
 				DE9D2A311C0E078400CD852E /* Members.json in Resources */,
 				DE5DE6D71BFDE7740032869E /* LaunchScreen.storyboard in Resources */,
 				DE12C5CE1C06064300EB987B /* Search.storyboard in Resources */,
@@ -465,6 +465,7 @@
 				DE5DE70C1BFDE8120032869E /* MedalView.swift in Sources */,
 				DE78E0001C0F1ADC0004BB94 /* VideoCell.swift in Sources */,
 				DEE81D5B1C0607C200B16024 /* MainTabBarController.swift in Sources */,
+				DEC5D51D1C4C11FA005AF050 /* MemberSearchViewController.swift in Sources */,
 				DE5DE70B1BFDE8120032869E /* LoginViewController.swift in Sources */,
 				DE5DE70A1BFDE8120032869E /* GenreCollectionViewController.swift in Sources */,
 				DEFC3B191C04A98900B05EC6 /* SettingsViewController.swift in Sources */,
@@ -473,26 +474,25 @@
 				DE78E0031C0F35B50004BB94 /* YourVideoViewController.swift in Sources */,
 				DE5DE72D1BFDF5300032869E /* CandyTableViewController.swift in Sources */,
 				DE5DE7061BFDE8120032869E /* APIHelper.swift in Sources */,
-				DE9D2A2C1C0E077900CD852E /* MemberSearchViewController.swift in Sources */,
 				DE5DE70F1BFDE8120032869E /* ViewController.swift in Sources */,
-				DE9D2A2E1C0E077900CD852E /* TipInCellAnimator.swift in Sources */,
 				DE5DE7071BFDE8120032869E /* APIs.swift in Sources */,
+				DEC5D51F1C4C1212005AF050 /* CardTableViewCell.swift in Sources */,
 				DE5DE7271BFDEEB00032869E /* Genre.swift in Sources */,
 				DE5DE7151BFDE8320032869E /* AlamofireImplementations.swift in Sources */,
 				DE5DE6CB1BFDE7740032869E /* AppDelegate.swift in Sources */,
 				DE5DE70D1BFDE8120032869E /* Models.swift in Sources */,
 				DE78DFFE1C0F1ADC0004BB94 /* YourVideosViewController.swift in Sources */,
+				DEC5D51C1C4C11FA005AF050 /* Member.swift in Sources */,
 				DE5B22571C17295D007C16AD /* BoardItem.swift in Sources */,
 				DE5DE7091BFDE8120032869E /* GenreCell.swift in Sources */,
 				DE9D2A211C0DDB9700CD852E /* Candy.swift in Sources */,
-				DE9D2A2B1C0E077900CD852E /* CardTableViewCell.swift in Sources */,
 				DE5DE7081BFDE8120032869E /* Extensions.swift in Sources */,
 				DE5B22551C172933007C16AD /* BoardItemCell.swift in Sources */,
 				DE5B22591C17297D007C16AD /* BoardViewController.swift in Sources */,
 				DE5DE70E1BFDE8120032869E /* NewsItemCell.swift in Sources */,
 				DE5DE7261BFDEEB00032869E /* Error.swift in Sources */,
+				DEC5D5191C4C11E4005AF050 /* TipInCellAnimator.swift in Sources */,
 				DE5DE7231BFDEEA50032869E /* GameboardAPI.swift in Sources */,
-				DE9D2A2D1C0E077900CD852E /* Member.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,15 +534,6 @@
 				DE5DE6D61BFDE7740032869E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		DE9D2A2A1C0E077900CD852E /* Members.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE9D2A291C0E077900CD852E /* Base */,
-			);
-			name = Members.storyboard;
-			path = "../../../Downloads/CardTilt-swift-final/CardTilt";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
